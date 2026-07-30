@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Large External Repos & Heavy Themes
+themes/
+kali-live-build/cache/
+kali-live-build/chroot/
+kali-live-build/binary/
+kali-live-build/images/
+
+# Build & Output
+output/*.iso
+output/*.log
+dist/
+build/
+*.spec
+qemu-setup.exe
+
+# IDE & System
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

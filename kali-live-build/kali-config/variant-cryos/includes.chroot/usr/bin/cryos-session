@@ -1,0 +1,8 @@
+#!/bin/bash
+# CryOS v1.0.0 Polaris Session Startup Script
+
+# Start compositor for GPU-accelerated Glassmorphism blur
+picom -b --config /etc/cryos/picom.conf &
+
+# Launch CryOS Desktop Shell
+python3 /usr/share/cryos/main.py

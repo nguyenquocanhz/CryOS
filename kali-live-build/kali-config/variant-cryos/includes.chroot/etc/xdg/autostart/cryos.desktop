@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=CryOS Polaris Shell
+Exec=/usr/bin/cryos-session
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
