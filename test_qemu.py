@@ -17,7 +17,6 @@ if sys.platform == "win32":
 
 ROOT_DIR = Path(__file__).parent.resolve()
 QEMU_PATHS = [
-    os.path.expandvars(r"%LOCALAPPDATA%\Android\Sdk\emulator\qemu\windows-x86_64\qemu-system-x86_64.exe"),
     r"C:\Program Files\qemu\qemu-system-x86_64.exe",
     r"C:\Program Files (x86)\qemu\qemu-system-x86_64.exe",
     r"C:\qemu\qemu-system-x86_64.exe",
